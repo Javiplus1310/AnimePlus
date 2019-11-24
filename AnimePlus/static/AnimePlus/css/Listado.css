@@ -1,0 +1,89 @@
+.titulo{
+    text-align: center;
+    font-family: 'Ultra', serif;
+    font-size: 5em;
+    background-color: gray;
+    padding: 20px;
+    color: orange;
+    
+}
+/* Imagen del icono de Facebook*/
+  
+.facebook{
+    position: absolute;
+    top: 30px;
+    right: 200px;
+  
+}
+/* Imagen del icono de instagram */
+  
+.instagram{
+    position: absolute;
+    top: 5px;
+    right: 120px;  
+}
+  
+/* Fondo de la pagina */
+body {
+    background: url('../img/fondo.jpg');
+    color: white;
+    text-align: center;
+}
+  
+/* Color de fondo del panel */
+.Panel {
+    overflow: hidden;
+    background-color: black;
+}
+  
+/* Letras del panel */
+.Panel a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 18px 200px;
+    text-decoration: none;
+    font-size: 10pt;
+}
+  
+/* Color al hacer click */
+.Panel a:hover {
+    background-color: white;
+    color: black;
+}
+
+h2{
+    font-size: 32pt;
+}
+
+table{
+    margin: auto;
+    background-color: white;
+    color: black;
+    text-align: left;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td{
+    padding: 20px;
+}
+
+thead{
+    background-color: #246355;
+    border-bottom: solid 5px #0F362D;
+    color: white;
+}
+
+tr:nth-child(even){
+    background-color: #ddd;
+}
+
+tr:hover td{
+    background-color: #369681;
+    color: white;
+}
+
+
+  

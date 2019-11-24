@@ -1,0 +1,66 @@
+.titulo{
+  text-align: center;
+  font-family: 'Ultra', serif;
+  font-size: 5em;
+  background-color: gray;
+  padding: 20px;
+  color: orange;
+  
+}
+/* Imagen del icono de facebook */
+.facebook{
+  position: absolute;
+  top: 30px;
+  right: 200px;
+
+}
+/* Imagen del icono de instagram */
+.instagram{
+  position: absolute;
+  top: 5px;
+  right: 120px;  
+}
+
+
+body {
+  background: url('../img/fondo.jpg');
+}
+
+/* Color de fondo del panel */
+.Panel {
+  overflow: hidden;
+  background-color: black;
+}
+
+/* Diseno del panel */
+.Panel a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 201px;
+  text-decoration: none;
+}
+
+/* Cambio de color al hacer click */
+.Panel a:hover {
+  background-color: white;
+  color: black;
+}
+/* titulo de los mejores animes esperados */
+.titulo2 {
+  text-align: center;
+  font-size: 50pt;
+  color: white;
+}
+/* titulo de las imagenes */
+.row{
+  font-size: 25pt;
+  color: white;
+}
+/* titulo de los mejores juegos esperados */
+.titulo3{
+  text-align: center;
+  font-size: 50pt;
+  color: white;
+}

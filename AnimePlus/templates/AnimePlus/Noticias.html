@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Noticias</title>
+    <link href="https://fonts.googleapis.com/css?family=Ultra&display=swap" rel="stylesheet">
+    {% load static %}
+    <link rel="stylesheet" href="{% static "AnimePlus/css/Noticias.css" %}">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Monoton&display=swap" rel="stylesheet">
+</head>
+<body>
+<!--Imagenes de RRSS y encabezado!-->
+<div class="titulo">
+    ANIME PLUS
+    <a href="http://www.facebook.com"><img src="{% static "AnimePlus/img/facebook.png" %}" alt="Facebook" class="facebook" width="50" height="50"></a>
+    <a href="http://www.instagram.com"><img src="{% static "AnimePlus/img/insta.png" %}" alt="Instagram" class="instagram" width="100" height="100"></a><br>
+</div>
+
+<!-- Panel de menu -->      
+<div class="Panel">
+    <a href="../Prueba">Inicio</a>
+    <a href="../Noticias">Noticias</a>
+    <a href="../Galeria">Galeria de imagenes</a>
+    <a href="../Contacto">Contáctanos</a>
+</div>
+<br>
+<!--Imagenes!-->
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-3 col-md-6">
+                <img src="{% static "AnimePlus/img/anime.jpg" %}" alt="Animes" width="800">
+        </div>
+        <div class="col-sm-9 col-md-6">
+                <img src="{% static "AnimePlus/img/juegos.jpg" %}" alt="Juegos">
+        </div>
+    </div>
+</div><br>
+<!--hipervínculo!-->
+<div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-3 col-md-6">
+                <a href="https://somoskudasai.com/">Animes</a>
+            </div>
+            <div class="col-sm-9 col-md-6">
+                <a href="https://www.3djuegos.com/">Juegos</a>
+            </div>
+        </div>
+    </div><br>
+
+
+
+
+
+</body>
+</html>

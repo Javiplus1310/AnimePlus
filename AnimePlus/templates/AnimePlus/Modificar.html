@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Modificar Personas</title>
+</head>
+<body>
+    <form method="POST">
+        {% csrf_token %}
+    {{ form_fields.as_p }}
+    <button type="submit" >Enviar</button>
+    </form>    
+</body>
+</html>

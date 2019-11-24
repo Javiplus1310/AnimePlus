@@ -1,0 +1,67 @@
+.titulo{
+  text-align: center;
+  font-family: 'Ultra', serif;
+  font-size: 5em;
+  background-color: gray;
+  padding: 20px;
+  color: orange;
+  
+}
+/* Imagen del icono de instagram */
+
+.facebook{
+  position: absolute;
+  top: 30px;
+  right: 200px;
+
+}
+/* Imagen del icono de instagram */
+
+.instagram{
+  position: absolute;
+  top: 5px;
+  right: 120px;  
+}
+
+/* Color de fondo de la pagina */
+body{
+  background-color: rgb(232, 241, 246);
+}
+
+/* Color de panel */
+.Panel {
+  overflow: hidden;
+  background-color: black;
+}
+
+/* diseno del panenl */
+.Panel a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 201px;
+  text-decoration: none;
+}
+
+/* Color de pondo del panel al hacer click */
+.Panel a:hover {
+  background-color: white;
+  color: black;
+}
+/* diseno del formulario */
+form {
+    text-align: left;
+    font-size: 12pt;
+    margin-left: 20px;
+}
+/* Campo de texto */
+textarea{
+    resize: none;
+}
+/* Imagen del formulario */
+.cartel{
+  position: absolute;
+  top: 245px;
+  right: 100px;
+}

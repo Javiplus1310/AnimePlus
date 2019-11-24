@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Eliminar Personas</title>
+</head>
+<body>
+    <form action="" method="POST">
+    {% csrf_token %}
+    <h2>¿Estas seguro de eliminar a {{ persona.nombre }}</h2>
+    <button class="btn btn-danger" type="submit">Eliminar</button>
+    <a class="btn btn-default" href="{% url 'AnimePlus:Listado' %}">Cancelar</a>
+    </form>
+</body>
+</html>

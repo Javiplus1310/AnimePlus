@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Inicio</title>
+    <link href="https://fonts.googleapis.com/css?family=Ultra&display=swap" rel="stylesheet">
+    {% load static %}
+    <link rel="stylesheet" href="{% static "AnimePlus/css/Login.css" %}">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Monoton&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="{% static "AnimePlus/js/Pruebas.js" %}"></script>
+</head>
+<!--Imagenes de RRSS y encabezado!-->
+<body>
+    <div class="titulo">
+        ANIME PLUS
+    <a href="http://www.facebook.com"><img src="{% static "AnimePlus/img/facebook.png" %}" alt="Facebook" class="facebook" width="50" height="50"></a>
+    <a href="http://www.instagram.com"><img src="{% static "AnimePlus/img/insta.png" %}" alt="Instagram" class="instagram" width="100" height="100"></a>
+    </div>
+
+<!-- Panel de menu -->      
+<div class="Panel">
+    <a href="../Prueba">Inicio</a>
+    <a href="../Noticias">Noticias</a>
+    <a href="../Galeria">Galeria de imagenes</a>
+    <a href="../Contacto">Contáctanos</a>
+</div><br>
+
+<a href="/admin/"><h1>Portal de Administrador</h1></a><br>
+
+<div class="login-form">
+    <form method="POST">
+        {% csrf_token %}
+        <div class="form-group">
+            <label>Nombre de usuario: </label>
+            <input type="text" name="username">
+        </div>
+        <div class="form-group">
+            <label>Contraseña: </label>
+            <input type="text" name="password">            
+        </div><br>
+        <a href="/admin/"><input type="button" value="Iniciar Sesion"></a>
+    </form><br>
+    <a href="../Recuperar"><h2>¿Se le olvido su contraseña?</h2></a>
+</div>
